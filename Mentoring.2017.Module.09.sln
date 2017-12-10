@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.NugetPackage", "Task2.NugetPackage\Task2.NugetPackage.csproj", "{2B5FEE20-0E0A-43C4-9AF5-81E560143D8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetPackageTest", "NugetPackageTest\NugetPackageTest.csproj", "{F1044F24-CDB1-42F9-91DB-0430AFEB792B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetServerLocalFeed", "NugetServerLocalFeed\NugetServerLocalFeed.csproj", "{074FF9B3-8613-4724-8323-E055B7B504F9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B5FEE20-0E0A-43C4-9AF5-81E560143D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5FEE20-0E0A-43C4-9AF5-81E560143D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5FEE20-0E0A-43C4-9AF5-81E560143D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5FEE20-0E0A-43C4-9AF5-81E560143D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1044F24-CDB1-42F9-91DB-0430AFEB792B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1044F24-CDB1-42F9-91DB-0430AFEB792B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1044F24-CDB1-42F9-91DB-0430AFEB792B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1044F24-CDB1-42F9-91DB-0430AFEB792B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074FF9B3-8613-4724-8323-E055B7B504F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074FF9B3-8613-4724-8323-E055B7B504F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074FF9B3-8613-4724-8323-E055B7B504F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074FF9B3-8613-4724-8323-E055B7B504F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
