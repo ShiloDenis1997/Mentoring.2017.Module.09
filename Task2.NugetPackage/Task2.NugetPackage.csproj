@@ -48,14 +48,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="content\app.config.uninstall.xdt" />
-    <Content Include="content\app.config.install.xdt" />
+    <Content Include="app.config.uninstall.xdt" />
+    <Content Include="app.config.install.xdt" />
     <None Include="nuget_pack.ps1" />
     <None Include="packages.config" />
     <None Include="Task2.NugetPackage.nuspec" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="content\readme.html" />
+    <Content Include="readme.html" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
