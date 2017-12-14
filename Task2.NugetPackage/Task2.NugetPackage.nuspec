@@ -19,8 +19,6 @@
   </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="app.config.install.xdt" target="content" />
-    <file src="app.config.uninstall.xdt" target="content" />
     <file src="readme.html" target="content"/>
   </files>
 </package>
